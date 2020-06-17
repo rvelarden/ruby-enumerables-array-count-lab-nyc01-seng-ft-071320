@@ -1,5 +1,6 @@
 require 'pry'
 def count_strings(array)
+  binding.pry
 string = ""  
 array.count do
   |string|
