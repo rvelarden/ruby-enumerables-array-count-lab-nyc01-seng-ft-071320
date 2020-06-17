@@ -1,9 +1,11 @@
-
+require 'pry'
 def count_strings(array)
 
  
 array.count do |element|
+  binding.pry
 element.class == string  
+
   end 
 end
  
