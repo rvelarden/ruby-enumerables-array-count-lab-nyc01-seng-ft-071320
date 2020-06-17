@@ -1,4 +1,4 @@
-
+require 'pry'
 def count_strings(array)
 string = ""  
 array.count do
