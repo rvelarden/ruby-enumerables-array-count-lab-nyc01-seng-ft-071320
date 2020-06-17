@@ -2,8 +2,7 @@
 def count_strings(array)
 
 string = ""  
-array.count do
-  |string|
+array.count do |string|
   end 
 end
  
