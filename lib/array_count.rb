@@ -3,9 +3,9 @@ def count_strings(array)
 
  
 array.count do |element|
-  binding.pry
+  
 element.class == String 
-
+ binding.pry
   end 
 end
  
