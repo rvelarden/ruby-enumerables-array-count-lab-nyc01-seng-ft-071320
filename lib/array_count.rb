@@ -3,7 +3,7 @@ def count_strings(array)
 
 string = ""  
 array.count do |element|
-  
+element.class  
   end 
 end
  
